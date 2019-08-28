@@ -1,5 +1,5 @@
 <?php
-include 'kernel.php';
+require 'includes/kernel.php';
 
 middleware_admin();
 

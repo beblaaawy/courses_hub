@@ -1,5 +1,5 @@
 <?php
-include 'kernel.php';
+require 'includes/kernel.php';
 ?>
 <!DOCTYPE html>
 <html>

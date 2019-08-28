@@ -1,5 +1,5 @@
 <?php
-include 'kernel.php';
+require 'includes/kernel.php';
 
 $testimonials = select_rows("SELECT testimonials.*, users.first_name, users.last_name FROM testimonials LEFT JOIN users ON testimonials.user_id = users.id ORDER BY id DESC");
 

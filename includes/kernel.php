@@ -10,7 +10,7 @@ define('DB_NAME', 'courses_hub');
 
 session_start();
 
-include 'validator.php';
+require 'validator.php';
 
 function view_alerts() {
 	if (isset($_SESSION['success'])) {

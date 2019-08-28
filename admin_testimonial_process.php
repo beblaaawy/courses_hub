@@ -1,6 +1,6 @@
 <?php
 
-include 'kernel.php';
+require 'includes/kernel.php';
 
 $errors = validator($_POST, [
 	'name' => 'required|string|min:2|max:50',
